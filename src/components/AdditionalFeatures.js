@@ -21,15 +21,3 @@ const AdditionalFeatures = props => {
 
 export default AdditionalFeatures;
 
-
-
-// const mapStateToProps = state => {
-//   return {
-//     features: state.additionalReducer.additionalFeatures
-//   };
-// };
-
-// export default connect(
-//   mapStateToProps,
-//   { removeFeature }
-// )(AdditionalFeatures);

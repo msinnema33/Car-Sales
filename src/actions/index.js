@@ -1,5 +1,6 @@
 export const ADD = 'ADD'
 export const REMOVE = 'REMOVE'
+
 export const addItem = feature => {
 	return {
 		type: ADD,
