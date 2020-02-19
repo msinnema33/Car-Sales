@@ -1,7 +1,6 @@
 import React from 'react';
 
 import AddedFeature from './AddedFeature';
-// import { connect } from 'react-redux';
 
 const AddedFeatures = props => {
   return (
@@ -23,15 +22,3 @@ const AddedFeatures = props => {
 };
 
 export default AddedFeatures;
-
-
-// const mapStateToProps = state => {
-//   return {
-//     features: state.addedReducer.features
-//   };
-// };
-
-// export default connect(
-//   mapStateToProps,
-//   { buyItem }
-// )(AddedFeatures);

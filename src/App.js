@@ -1,5 +1,4 @@
 import React from 'react';
-// import { createStore } from 'redux';
 import {connect} from 'react-redux';
 import { addItem, removeItem } from './actions/index';
 
